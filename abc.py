@@ -62,7 +62,7 @@ st.markdown(
     """)
 
 
-st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fronalpstock_big.jpg/800px-Fronalpstock_big.jpg',
+st.image('https://your-direct-image-url.jpg',
          caption="Automated Resume Analysis Made Simple",
          use_container_width=True)
 
@@ -183,5 +183,6 @@ if resume_file and jd_file:
             st.markdown("### ❌ Poor Match — Consider Revising Your Resume")
 else:
     st.info("Please upload both files to begin.")
+
 
 
