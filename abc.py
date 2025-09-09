@@ -62,7 +62,7 @@ st.markdown(
     """)
 
 
-st.image('C:\\Users\\Admin\\Downloads\\istockphoto-1412764569-612x612.jpg',
+st.image('https://www.google.com/search?q=image+for+resume+building&oq=image+for+resume+building&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoFMgoIBhAAGIAEGKIEMgoIBxAAGIAEGKIE0gEKODM0MzNqMGoxNagCCLACAfEFkgizidQVT0o&sourceid=chrome&ie=UTF-8#vhid=WqrQ2zEy4ypZaM&vssid=_kbm_aKr3GPnhseMPla-jsQQ_67',
          caption="Automated Resume Analysis Made Simple",
          use_container_width=True)
 
@@ -183,3 +183,4 @@ if resume_file and jd_file:
             st.markdown("### ❌ Poor Match — Consider Revising Your Resume")
 else:
     st.info("Please upload both files to begin.")
+
