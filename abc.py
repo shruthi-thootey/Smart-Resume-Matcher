@@ -62,9 +62,10 @@ st.markdown(
     """)
 
 
-st.image('C:\Users\Admin\Downloads\new-graduate-student-holding-resume-application-photo.jpg',
+st.image('C:/Users/Admin/Downloads/new-graduate-student-holding-resume-application-photo.jpg',
          caption="Automated Resume Analysis Made Simple",
          use_container_width=True)
+
 
 st.sidebar.title("Navigate")
 st.sidebar.write("Use the navigation panel to explore different features of the app.")
@@ -183,6 +184,7 @@ if resume_file and jd_file:
             st.markdown("### ❌ Poor Match — Consider Revising Your Resume")
 else:
     st.info("Please upload both files to begin.")
+
 
 
 
